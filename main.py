@@ -1,7 +1,6 @@
 import pygame
 import random
 import math
-import io
 from pygame import mixer
 
 #Inicializar Pygame
@@ -149,7 +148,7 @@ while se_ejecuta:
         # colision
         colision = hay_colisiones(enemigo_x[e], enemigo_y[e], bala_x, bala_y)
         if colision:
-            sonido_colision = mixer.Sound('golpe.mp3')
+            sonido_colision = mixer.Sound('Golpe.mp3')
             sonido_colision.play()
             bala_y = 500
             bala_visible = False
