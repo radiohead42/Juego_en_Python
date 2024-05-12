@@ -1,5 +1,5 @@
 #Directorios y Carpetas ignorados
-.venv
-build
-venv
+.venv/
+build/
+venv/
 
