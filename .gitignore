@@ -1,0 +1,5 @@
+#Directorios y Carpetas ignorados
+.venv
+build
+venv
+
